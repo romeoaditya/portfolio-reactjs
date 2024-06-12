@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./services.css";
 
 const Services = () => {
@@ -39,7 +39,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Frontend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 4 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -105,7 +105,7 @@ const Services = () => {
                 Penetration Tester & Bug Hunter
               </h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 2 years of experience.Providing quality
                 work to clients and companies.
               </p>
 
@@ -113,29 +113,25 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
+                    Finding Security Flaws.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Vulnerability Scanning.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Web application penetration testing.
+                  </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Mobile application penetration testing.
                   </p>
                 </li>
               </ul>
@@ -169,7 +165,7 @@ const Services = () => {
 
               <h3 className="services__modal-title">Backend Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 2 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
@@ -177,30 +173,28 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    I develop the server side.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Database Management</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
+                    Application Logic and Business Processes.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Performance Optimization.
                   </p>
+                </li>
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">DevOps and Deployment.</p>
                 </li>
               </ul>
             </div>
@@ -233,37 +227,29 @@ const Services = () => {
 
               <h3 className="services__modal-title">Fullstack Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
+                Service with more than 5 years of experience. Providing quality
                 work to clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
+                  <p className="services__modal-info">Front-End Development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
+                  <p className="services__modal-info">Back-End Development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Full Application Development.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Testing and Quality Assurance.
                   </p>
                 </li>
               </ul>
