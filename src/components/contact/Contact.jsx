@@ -62,10 +62,10 @@ const Contact = () => {
               <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">Romeo Aditya</span>
+              <span className="contact__card-data">romeoaditya2228</span>
 
               <a
-                href="https://m.me/RomeoAditya"
+                href="https://m.me/romeoaditya2228"
                 className="contact__button"
                 target="_blank"
               >
