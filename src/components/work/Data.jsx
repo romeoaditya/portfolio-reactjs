@@ -22,7 +22,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: Wordpress,
+    image: WordPress,
     title: "Motorcycle Dealership WordPress",
     category: "web",
   },
