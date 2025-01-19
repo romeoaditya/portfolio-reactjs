@@ -81,7 +81,7 @@ const Services = () => {
           <div>
             <i className="bx bxs-bug services__icon"></i>
             <h3 className="services__title">
-              Penetration <br /> Tester
+              WordPress <br /> Designer
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -102,36 +102,36 @@ const Services = () => {
               ></i>
 
               <h3 className="services__modal-title">
-                Penetration Tester & Bug Hunter
+                WordPress Designer & WordPress Developer
               </h3>
               <p className="services__modal-description">
-                Service with more than 2 years of experience.Providing quality
-                work to clients and companies.
+                Over 1 year of experience delivering exceptional WordPress solutions.
+                Dedicated to providing high-quality services for clients and businesses.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Finding Security Flaws.
+                    Custom WordPress theme development.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Vulnerability Scanning.
+                    Optimizing website performance and SEO.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Web application penetration testing.
+                    Securing WordPress sites against vulnerabilities.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Mobile application penetration testing.
+                    Plugin customization and development.
                   </p>
                 </li>
               </ul>
