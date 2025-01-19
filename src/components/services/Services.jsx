@@ -79,7 +79,7 @@ const Services = () => {
 
         <div className="services__content">
           <div>
-            <i className="bx bxs-bug services__icon"></i>
+            <i className="bx bxl-wordpress services__icon"></i>
             <h3 className="services__title">
               WordPress <br /> Designer
             </h3>
