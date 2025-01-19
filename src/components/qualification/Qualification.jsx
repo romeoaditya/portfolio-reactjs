@@ -140,7 +140,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
-              <div>
+{/*               <div>
                 <h3 className="qualification__title">Backend Developer</h3>
                 <span className="qualification__subtitle">
                   Freelance - Online
@@ -149,7 +149,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2019 - Present
                   
                 </div>
-              </div>
+              </div> */}
 
               <div>
                 <span className="span qualificatiion__rounder"></span>
