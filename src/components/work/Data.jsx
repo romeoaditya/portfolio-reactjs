@@ -1,4 +1,6 @@
-import SimpleAdminDashboard from "../../assets/simple_admin_dashboard.png";
+import SimpleAdminDashboard from "../../assets/simple_admin_dashboard.webp";
+import Sekolah from "../../assets/sekolah.webp";
+import WordPress from "../../assets/wordpress.webp";
 import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
@@ -14,28 +16,28 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: Work2,
-    title: "App movil",
-    category: "app",
+    image: Sekolah,
+    title: "Official School Website",
+    category: "web",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web design",
+    image: Wordpress,
+    title: "Motorcycle Dealership WordPress",
     category: "web",
   },
+  // {
+  //   id: 4,
+  //   image: Work4,
+  //   title: "App movil",
+  //   category: "app",
+  // },
+  // {
+  //   id: 5,
+  //   image: Work5,
+  //   title: "Web design",
+  //   category: "web",
+  // },
 ];
 
 export const projectsNav = [
