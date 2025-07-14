@@ -9,8 +9,8 @@ const Services = () => {
   };
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Service</h2>
-      <span className="section__subtitle">What is offer</span>
+      <h2 className="section__title">Layanan</h2>
+      <span className="section__subtitle">Layanan yang Saya Tawarkan</span>
 
       <div className="services__container container grid">
         <div className="services__content">
@@ -105,8 +105,9 @@ const Services = () => {
                 WordPress Designer & WordPress Developer
               </h3>
               <p className="services__modal-description">
-                Over 1 year of experience delivering exceptional WordPress solutions.
-                Dedicated to providing high-quality services for clients and businesses.
+                Over 1 year of experience delivering exceptional WordPress
+                solutions. Dedicated to providing high-quality services for
+                clients and businesses.
               </p>
 
               <ul className="services__modal-services grid">

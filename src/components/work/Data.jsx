@@ -1,43 +1,45 @@
 import SimpleAdminDashboard from "../../assets/simple_admin_dashboard.webp";
 import Sekolah from "../../assets/sekolah.webp";
 import WordPress from "../../assets/wordpress.webp";
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import QuranApp from "../../assets/quranapp.jpg";
+import BoterviewAI from "../../assets/boterview.png";
 
 export const projectsData = [
   {
     id: 1,
     image: SimpleAdminDashboard,
-    title: "Admin Dashbord Web Booking Tiket Wisata",
+    title: "Dashboard Booking Tiket Wisata",
     category: "web",
+    link: "https://github.com/romeoaditya/booking-tiket-wisata.git",
   },
   {
     id: 2,
     image: Sekolah,
-    title: "Official School Website",
+    title: "Website Sekolah (Landing Page)",
     category: "web",
+    link: "https://mts-saadatulmahabbah.vercel.app/",
   },
   {
     id: 3,
     image: WordPress,
-    title: "Motorcycle Dealership WordPress",
+    title: "Website Dealer Motor (WordPress)",
     category: "web",
+    link: "http://zahramotor.ct.ws/",
   },
-  // {
-  //   id: 4,
-  //   image: Work4,
-  //   title: "App movil",
-  //   category: "app",
-  // },
-  // {
-  //   id: 5,
-  //   image: Work5,
-  //   title: "Web design",
-  //   category: "web",
-  // },
+  {
+    id: 4,
+    image: BoterviewAI,
+    title: "AI Interviewer",
+    category: "ai",
+    link: "https://boterview-id.vercel.app/",
+  },
+  {
+    id: 5,
+    image: QuranApp,
+    title: "Aplikasi Al-Quran (Android)",
+    category: "app",
+    link: "https://github.com/romeoaditya/alquran-app.git",
+  },
 ];
 
 export const projectsNav = [
@@ -51,6 +53,6 @@ export const projectsNav = [
     name: "app",
   },
   {
-    name: "design",
+    name: "AI",
   },
 ];

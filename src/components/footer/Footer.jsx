@@ -5,22 +5,17 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Oemor</h1>
+        <h1 className="footer__title">Romeo</h1>
 
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
-              About
+              Tentang Saya
             </a>
           </li>
           <li>
             <a href="#portfolio" className="footer__link">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+              Proyek
             </a>
           </li>
         </ul>
@@ -49,7 +44,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Romeoaditya. All rigths reserved
+          <p>© {new Date().getFullYear()} Romeoaditya.</p>
         </span>
       </div>
     </footer>

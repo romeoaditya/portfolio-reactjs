@@ -7,8 +7,8 @@ import Info from "./Info";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <h2 className="section__title">Tentang Saya</h2>
+      <span className="section__subtitle">Perkenalan Singkat</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,12 +17,13 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Pentester, Frontend developer, Backend developer, and Fullstack
-            developer. I have years of experience and many clients are happy
-            with the projects carried out.
+            Saya adalah Junior Web Developer sekaligus siswa jurusan{" "}
+            <b>RPL (Rekayasa Perangkat Lunak)</b> di <b>SMK Tunas Media</b>.
+            Saya antusias dalam bidang web development dan terus mengembangkan
+            keterampilan melalui berbagai proyek pribadi.
           </p>
           <a download="" href={CV} className="button button__flex">
-            Download CV
+            Unduh CV
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
