@@ -52,7 +52,20 @@ const Header = () => {
                     : "nav__link"
                 }
               >
-                <i className="uil uil-file-alt nav__icon"></i> Keahlian
+                <i className="uil uil-wrench nav__icon"></i> Keahlian
+              </a>
+            </li>
+            <li className="nav__item">
+              <a
+                href="#sertifikat"
+                onClick={() => setActiveNav("#sertifikat")}
+                className={
+                  activeNav === "#sertifikat"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
+                <i className="uil uil-award nav__icon"></i> Sertifikat
               </a>
             </li>
 

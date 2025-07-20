@@ -9,7 +9,6 @@
   cursor: pointer;
   color: var(--title-color);
   padding: 0.25rem 0.75rem;
-
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
@@ -20,22 +19,37 @@
   color: var(--container-color);
 }
 
+/* Container Grid mirip certificate */
 .work__container {
-  grid-template-columns: repeat(2, max-content);
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   justify-content: center;
 }
 
+/* Kartu agar seragam dengan .cert__card */
 .work__card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  padding: 1rem;
   background-color: var(--container-color);
+  border-radius: 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
-  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Mengisi kolom grid */
 }
 
+.work__card:hover {
+  transform: scale(1.03);
+}
+
+/* Gambar mengikuti lebar kartu */
 .work__img {
-  width: 295px;
-  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: contain;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: var(--mb-1);
 }
 
@@ -71,7 +85,7 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .work__container {
-    gap: 1.25rem;
+    grid-template-columns: repeat(2, max-content);
   }
   .work__card {
     padding: 1rem;
@@ -86,11 +100,14 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .work__container {
-    grid-template-columns: max-content;
+    grid-template-columns: repeat(2, max-content);
   }
 }
 
 @media screen and (max-width: 576px) {
+  .work__card {
+    max-width: max-content;
+  }
   .work__container {
     grid-template-columns: 1fr;
   }

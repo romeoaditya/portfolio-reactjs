@@ -38,12 +38,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Desain Web</h3>
-                <span className="qualification__subtitle">
-                  Mandiri - YouTube
-                </span>
+                <h3 className="qualification__title">
+                  Web Design (HTML, CSS, JavaScript)
+                </h3>
+                <span className="qualification__subtitle">Sololearn</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019 - Sekarang
+                  <i className="uil uil-calendar-alt"></i> 2022
                 </div>
               </div>
 
@@ -61,19 +61,19 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">WordPress Developer</h3>
+                <h3 className="qualification__title">Web CMS Wordpress</h3>
                 <span className="qualification__subtitle">SMK Tunas Media</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2024 - 2025
+                  <i className="uil uil-calendar-alt"></i> 2024
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Fullstack Next.js</h3>
-                <span className="qualification__subtitle">Kursus Online</span>
+                <h3 className="qualification__title">Graphic Design</h3>
+                <span className="qualification__subtitle">SMK Tunas Media</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2024 - Sekarang
+                  <i className="uil uil-calendar-alt"></i> 2025
                 </div>
               </div>
 
@@ -90,12 +90,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Backend Laravel 11</h3>
-                <span className="qualification__subtitle">
-                  Mandiri - Youtube
-                </span>
+                <h3 className="qualification__title">Web Development</h3>
+                <span className="qualification__subtitle">Sololearn</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2024 - 2025
+                  <i className="uil uil-calendar-alt"></i> 2025
                 </div>
               </div>
             </div>

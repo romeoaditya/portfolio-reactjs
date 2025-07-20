@@ -18,6 +18,11 @@ const Footer = () => {
               Proyek
             </a>
           </li>
+          <li>
+            <a href="#sertifikat" className="footer__link">
+              Sertifikat
+            </a>
+          </li>
         </ul>
 
         <div className="footer__social">
@@ -29,7 +34,7 @@ const Footer = () => {
             <i class="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://linkedin.com/in/romeo-aditya-22a539304"
+            href="https://www.linkedin.com/in/romeo-aditya-0b8b1833b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="footer__social-link"
             target="_blank"
           >
